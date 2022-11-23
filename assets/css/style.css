@@ -109,9 +109,10 @@ nav a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center center;
+    position: relative;
 }
 .imagen{
-    width: 100%;
+    width: ;
     height: 220px;
     padding: 20px;
     display: flex;
@@ -257,10 +258,13 @@ padding: 150px;
 .carousel-item  {
     
  
-   padding: 120px;
-   border-radius: 5px;
-    
-  
+   padding: 250px;
+   
+  }
+
+  .carousel-caption {
+   padding: ;
+
   }
   @media screen and (max-width: 1700px){
     .limiteNav{
