@@ -36,6 +36,8 @@ a{
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
+    
+    
 }
 
 .formulario{
@@ -78,6 +80,9 @@ textarea{
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+
+  
+
 
   
 }
@@ -191,6 +196,11 @@ footer{
     color: white;
     padding: 20px 80px;
     font-size: 23px;
+    position: ;
+    bottom: 0;
+   
+
+    
     
 }
 footer h4{
@@ -243,8 +253,26 @@ padding: 150px;
 }
     
 .carousel-item  {
+    
  
    padding: 120px;
+   border-radius: 5px;
     
   
   }
+  @media screen and (max-width: 1700px){
+    .limiteNav{
+        background-position: 50%;
+    }
+    
+ 
+  }
+    
+ .centro__ubicacion {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+ }
+ main{
+    height: 100%;
+ }
