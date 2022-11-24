@@ -3,8 +3,11 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    
   }
-
+img{
+    width: 100%;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -108,64 +111,53 @@ nav a:hover{
     margin:auto;  
     display: flex;
     flex-wrap: wrap;
-    justify-content: center center;
-    position: relative;
+    justify-content: space-between;
+   
 }
 .imagen{
-    width: ;
-    height: 220px;
+    width: 100%;
+    height: 300px;
+   
     padding: 20px;
     display: flex;
     justify-content: center ;
     align-content: center;
-    position: relative;
     z-index: 1;
+    position: relative;
     
 }
-.card1{
+.card_servicios{
     width: 300px;
-    position: relative;
     margin: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all 300ms;
+    text-align: -webkit-center;
+  
+    
 
 }
-.card2{
-    width: 300px;
-    position: relative;
-    margin: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: all 300ms;
-    
-}
-.card3{
-    width: 300px;
-    position: relative;
-    margin: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: all 300ms;
-    
-}
+
+
 .info{
-    width: 100%;
+    
     height: 220px;
     color: #24303c;
-    padding: 20px;
-    margin-top: -220px;
+    padding: 15px;
+    margin-top: -230px;
     transition: all 400ms;
+    
 
+}
+.info h3{
+    font-size: 24px;
 }
 .info p{
     font-size: 20px;
     margin-top: 10px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-line-clamp: 6;
-    line-clamp: 6;
     overflow: hidden;
+    height: 150px;
 }
-.info input{
+.btn_servicios{
     margin-top: 20px;
     padding: 10px 40px;
     background-color: #A3CEF1;
@@ -176,17 +168,11 @@ nav a:hover{
     border: none;
     border-radius: 20px;
     box-shadow: 1px 1px 30px -5px #0a0a0a;
-}
 
-.card1:hover .info{
-    margin-top: 0px;
 
 }
-.card2:hover .info{
-    margin-top: 0px;
 
-}
-.card3:hover .info{
+.card_servicios:hover .info{
     margin-top: 0px;
 
 }
